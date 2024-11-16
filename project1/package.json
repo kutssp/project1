@@ -1,0 +1,17 @@
+{
+  "name": "arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Arbitrage bot for Binance and Bybit with Telegram notifications",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "node-binance-api": "^0.12.0",
+    "bybit-api": "^1.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "lodash": "^4.17.21"
+  },
+  "author": "",
+  "license": "ISC"
+}
